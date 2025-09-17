@@ -16,14 +16,14 @@ public class A {
             nm_diretores = scanner.nextInt();
         }
 
-        while (k_duracao < 1 || k_duracao > 1000) { 
+        while (k_duracao < 1 || k_duracao > 1000) {
             System.out.print("Entre com K: ");
             k_duracao = scanner.nextInt();
         }
 
         intervaloTotal = nm_diretores - 1;
 
-        saida = (k_duracao - intervaloTotal)/nm_diretores;
+        saida = (k_duracao - intervaloTotal) / nm_diretores;
 
         System.out.println("Tempo de Fala: " + saida);
     }
